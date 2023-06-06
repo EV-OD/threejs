@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Panoramic Image in Three.js</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <main id="home">
+      <div id="container"></div>
+      <div class="menu">
+        <ul>
+          <li class="l1" onclick="handleMenuClicked(this, 'home')">Home</li>
+          <li class="l2" onclick="handleMenuClicked(this, 'contact')">
+            Contact
+          </li>
+          <li class="l3" onclick="handleMenuClicked(this, 'projects')">
+            Projects
+          </li>
+          <li class="l4" onclick="handleMenuClicked(this, 'blogs')">Blogs</li>
+        </ul>
+      </div>
+      <div class="ui-card" data-tilt>
+        <h1>RABIN LAMICHHANE</h1>
+        <p>
+          I am a full-stack web developer, proficient in Python, JavaScript,
+          Node.js, TypeScript and frameworks Next.js, React.js. Skilled in
+          building responsive websites
+        </p>
+        <img id="me" src="/assets/images/me.png" height="500" />
+      </div>
+    </main>
+    <section id="contact">
+      <div class="ui-card">
+        <h1>hello</h1>
+      </div>
+    </section>
+    <script src="js/tilt.js"></script>
+    <script type="module" src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="uiscript.js"></script>
+  </body>
+</html>
