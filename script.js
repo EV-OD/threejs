@@ -11,7 +11,7 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 container.appendChild(renderer.domElement);
 
 const loader = new THREE.TextureLoader();
-const texture = loader.load('assets/images/scifi_small_having_only_bed__table_and_chair_lap.jpg');
+const texture = loader.load('/assets/images/scifi_small_having_only_bed__table_and_chair_lap.jpg');
 
 const geometry = new THREE.SphereGeometry(500, 60, 40);
 
